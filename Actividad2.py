@@ -46,9 +46,9 @@ def main():
             elif opcion == 2:
                 objOperasBas.restar()
             elif opcion == 3:
-                objOperasBas.dividir()
-            elif opcion == 4:
                 objOperasBas.multiplicar()
+            elif opcion == 4:
+                objOperasBas.dividir()
             print("El resultado es: {} \n".format(objOperasBas.resultado))
         else:
             os.system('cls')
